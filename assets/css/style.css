@@ -1,0 +1,164 @@
+body {
+    display:flex;
+    flex-direction: column;
+    line-height: 1.5;
+    background-color:rgb(240, 234, 234);
+}
+
+header {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+    background-color: darkolivegreen;
+    color: #70643f;
+    background-image: url("https://previews.123rf.com/images/backgroundstore/backgroundstore1207/backgroundstore120700234/14440793-program-code-green-background.jpg");
+    border-bottom:#70643f solid  20px;
+}
+h1 {
+    display:flex;
+    font-size: 200%;
+    background-color:wheat;
+    padding: 30px;
+    font-family: "OCR A Std", monospace ;
+    z-index: 1;
+
+}
+img {
+    display: flex;
+    background-size: cover;
+    margin-left: 2%;
+    height: 400px;
+    width: 100%;
+    z-index: 0;
+    border-top: 15px solid rgb(240, 234, 234);
+
+}
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    min-width: 300px;
+}
+nav a {
+    display: flex;
+    background-color: wheat;
+    color: #70643f;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 30px;
+    font-family: "OCR A Std", monospace ;
+    z-index: 1;
+}
+.about-me {
+    display:flex;
+    font-size: 100%;
+    background-color: rgb(240, 234, 234); 
+    font-family: "OCR A Std", monospace ;
+    margin-left:13%;
+   
+    
+}
+#about-title {
+    font-size: 300%;
+    background-color: rgb(240, 234, 234); 
+    font-family: "OCR A Std", monospace ;
+    border-right:darkolivegreen solid 2px;
+    margin-left: 0%;
+    color:#70643f;
+}
+
+#work-title {
+    font-size: 300%;
+    background-color: rgb(240, 234, 234); 
+    font-family: "OCR A Std", monospace ;
+    border-right:darkolivegreen solid 2px;
+    margin-left: 0%;
+    color:#70643f;
+}
+.about-me p {
+    margin:5%;
+    color:#70643f;
+    background-color: rgb(240, 234, 234);
+}
+
+.my-work {
+    display:flex;
+    font-size: 100%;
+    background-color: rgb(240, 234, 234); 
+    font-family: "OCR A Std", monospace ;
+    margin-left:10%;
+    margin-top: 5%;
+    
+}
+
+
+#horiseon-image {
+    
+    display:flex;
+    height: 650px;
+    width: 25%;
+    border: wheat solid 5px;
+    margin-left: 10px;;
+}
+
+#horiseon-image:hover {
+    background-color:rgb(240, 234, 234, 0.3);
+}
+
+.placeholder-images {
+    display:flex;
+    flex-wrap: wrap;
+    height: 325px;
+    width: 25%;
+    border: wheat solid 5px;
+    margin-right: 20px;
+}
+#contact-title {
+    font-size: 300%;
+    background-color: rgb(240, 234, 234); 
+    font-family: "OCR A Std", monospace ;
+    border-right:darkolivegreen solid 2px;
+    margin-left: 0%;
+    color:#70643f;
+    margin-left: 10%;
+}
+.contact-me {
+    margin-top: 5%;
+    display:flex;
+    font-size: 100%;
+    background-color: rgb(240, 234, 234); 
+    font-family: "OCR A Std", monospace ;
+    margin-left:10%px;
+}
+
+.contact-me ul {
+    display: flex;
+    flex-direction: row;
+    margin:5%;
+    color:#70643f;
+    background-color: rgb(240, 234, 234);
+}
+ 
+article a {
+    display: flex;
+    color: #70643f;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 80px;
+    font-family: "OCR A Std", monospace ;
+    z-index: 1;
+}
+
+
+@media screen and (max-width :940px) {
+    .placeholder-images {
+        flex-direction: column;
+        flex: 25%;
+        order:2;
+        width: 100%;
+    }
+    nav {
+        flex-direction: column;
+    }
+}
