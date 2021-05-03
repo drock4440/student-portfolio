@@ -1,0 +1,10 @@
+/* Creating variables for things that I need to repeat often in my stylesheet */
+
+:root {
+    --green: darkolivegreen;
+    --tan: #70643f;
+    --lighter: wheat;
+    --bgcolor: rgb(240,234,234);
+    --border: wheat solid 5px;
+    --rborder: darkolivegreen solid 2px;
+}

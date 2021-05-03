@@ -15,6 +15,7 @@ header {
     color: var(--tan);
     background-image: url("https://previews.123rf.com/images/backgroundstore/backgroundstore1207/backgroundstore120700234/14440793-program-code-green-background.jpg");
     border-bottom: #70643f solid  20px;
+/* the url() will put the sourced image as the background for this header  */
 }
 h1 {
     display:flex;
@@ -22,7 +23,7 @@ h1 {
     background-color:wheat;
     padding: 30px;
     font-family: "OCR A Std", monospace ;
-    z-index: 1;
+  
 
 }
 img {
@@ -37,6 +38,7 @@ img {
 }
 nav ul {
     display: flex;
+/* This will put space in between my items in my nav */
     justify-content: space-between;
     min-width: 300px;
 }
@@ -48,7 +50,7 @@ nav a {
     text-decoration: none;
     padding: 30px;
     font-family: "OCR A Std", monospace ;
-    z-index: 1;
+   
 }
 .about-me {
     display:flex;
@@ -63,7 +65,7 @@ nav a {
     font-size: 300%;
     background-color: var(--bgcolor); 
     font-family: "OCR A Std", monospace ;
-    border-right:darkolivegreen solid 2px;
+    border-right:var(--rborder);
     margin-left: 0%;
     color: var(--tan);
 }
@@ -72,7 +74,7 @@ nav a {
     font-size: 300%;
     background-color: var(--bgcolor); 
     font-family: "OCR A Std", monospace ;
-    border-right:darkolivegreen solid 2px;
+    border-right:var(--rborder);
     margin-left: 0%;
     color: var(--tan);
 }
@@ -115,7 +117,7 @@ nav a {
     font-size: 300%;
     background-color: var(--bgcolor); 
     font-family: "OCR A Std", monospace ;
-    border-right:darkolivegreen solid 2px;
+    border-right:var(--rborder);
     margin-left: 0%;
     color: var(--tan);
 
@@ -147,7 +149,13 @@ article a {
     z-index: 1;
 }
 
-
+footer {
+    height:30px;
+    background-color: var(--green);
+    color:var(--bgcolor);
+    text-align: center;
+}
+/* this will place the placeholder images on top of one another when the screen size shrinks below 940 */
 @media screen and (max-width: 940px) {
     .placeholder-images {
         flex-direction: column;
