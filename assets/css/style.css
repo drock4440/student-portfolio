@@ -2,7 +2,7 @@ body {
     display:flex;
     flex-direction: column;
     line-height: 1.5;
-    background-color:rgb(240, 234, 234);
+    background-color: var(--bgcolor);
 }
 
 header {
@@ -12,9 +12,9 @@ header {
     align-items: center;
     padding: 1%;
     background-color: darkolivegreen;
-    color: #70643f;
+    color: var(--tan);
     background-image: url("https://previews.123rf.com/images/backgroundstore/backgroundstore1207/backgroundstore120700234/14440793-program-code-green-background.jpg");
-    border-bottom:#70643f solid  20px;
+    border-bottom: #70643f solid  20px;
 }
 h1 {
     display:flex;
@@ -32,7 +32,7 @@ img {
     height: 400px;
     width: 100%;
     z-index: 0;
-    border-top: 15px solid rgb(240, 234, 234);
+    border-top: 15px solid var(--bgcolor);
 
 }
 nav ul {
@@ -43,7 +43,7 @@ nav ul {
 nav a {
     display: flex;
     background-color: wheat;
-    color: #70643f;
+    color: var(--tan);
     font-weight: bold;
     text-decoration: none;
     padding: 30px;
@@ -53,39 +53,39 @@ nav a {
 .about-me {
     display:flex;
     font-size: 100%;
-    background-color: rgb(240, 234, 234); 
+    background-color: var(--bgcolor); 
     font-family: "OCR A Std", monospace ;
-    margin-left:13%;
+    margin-left:10%;
    
     
 }
 #about-title {
     font-size: 300%;
-    background-color: rgb(240, 234, 234); 
+    background-color: var(--bgcolor); 
     font-family: "OCR A Std", monospace ;
     border-right:darkolivegreen solid 2px;
     margin-left: 0%;
-    color:#70643f;
+    color: var(--tan);
 }
 
 #work-title {
     font-size: 300%;
-    background-color: rgb(240, 234, 234); 
+    background-color: var(--bgcolor); 
     font-family: "OCR A Std", monospace ;
     border-right:darkolivegreen solid 2px;
     margin-left: 0%;
-    color:#70643f;
+    color: var(--tan);
 }
 .about-me p {
     margin:5%;
-    color:#70643f;
-    background-color: rgb(240, 234, 234);
+    color: var(--tan);
+    background-color: var(--bgcolor);
 }
 
 .my-work {
     display:flex;
     font-size: 100%;
-    background-color: rgb(240, 234, 234); 
+    background-color: var(--bgcolor); 
     font-family: "OCR A Std", monospace ;
     margin-left:10%;
     margin-top: 5%;
@@ -94,55 +94,52 @@ nav a {
 
 
 #horiseon-image {
-    
-    display:flex;
-    height: 650px;
-    width: 25%;
-    border: wheat solid 5px;
+    position:relative;
+    display:block;
+    height: 100%;
+    width: 100%;
+    border: var(--border);
     margin-left: 10px;;
 }
 
-#horiseon-image:hover {
-    background-color:rgb(240, 234, 234, 0.3);
-}
 
 .placeholder-images {
     display:flex;
     flex-wrap: wrap;
     height: 325px;
     width: 25%;
-    border: wheat solid 5px;
+    border: var(--border);
     margin-right: 20px;
 }
 #contact-title {
     font-size: 300%;
-    background-color: rgb(240, 234, 234); 
+    background-color: var(--bgcolor); 
     font-family: "OCR A Std", monospace ;
     border-right:darkolivegreen solid 2px;
     margin-left: 0%;
-    color:#70643f;
-    margin-left: 10%;
+    color: var(--tan);
+
 }
 .contact-me {
     margin-top: 5%;
     display:flex;
     font-size: 100%;
-    background-color: rgb(240, 234, 234); 
+    background-color: var(--bgcolor); 
     font-family: "OCR A Std", monospace ;
-    margin-left:10%px;
+    margin-left:10%;
 }
 
 .contact-me ul {
     display: flex;
     flex-direction: row;
     margin:5%;
-    color:#70643f;
-    background-color: rgb(240, 234, 234);
+    color: var(--tan);
+    background-color: var(--bgcolor);
 }
  
 article a {
     display: flex;
-    color: #70643f;
+    color: var(--tan);
     font-weight: bold;
     text-decoration: none;
     padding: 80px;
@@ -151,7 +148,7 @@ article a {
 }
 
 
-@media screen and (max-width :940px) {
+@media screen and (max-width: 940px) {
     .placeholder-images {
         flex-direction: column;
         flex: 25%;
