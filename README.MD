@@ -1,4 +1,4 @@
-![alt-image](Images/portfolio.png)
+[alt-image](Images/portfolio.png)
 Access my application here: [Student-Portfolio/index.html](https://drock4440.github.io/student-portfolio/)
 
 # Creating a Portfolio
