@@ -1,4 +1,4 @@
-![Alt Text](Images/Screen Shot 2021-05-02 at 9.27.03 PM.png)
+![alt-image](Images/portfolio.png)
 Access my application here: [Student-Portfolio/index.html](https://drock4440.github.io/student-portfolio/)
 
 # Creating a Portfolio
