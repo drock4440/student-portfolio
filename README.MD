@@ -1,15 +1,19 @@
-[alt-image](Images/portfolio.png)
-Access my application here: [Student-Portfolio/index.html](https://drock4440.github.io/student-portfolio/)
+<!-- [alt-image](Images/portfolio.png)
+Access my application here: [Student-Portfolio/index.html](https://drock4440.github.io/student-portfolio/) -->
+[My-Portfolio] (./Images/portfolio.png)
 
 # Creating a Portfolio
 
-We were tasked with creating a portfolio from scratch. I started by creating files inside of my uniquely named folder, Student Portfolio. I created an HTML file, 3 CSS files, and a .gitignore file. I then added a folder for images that I had locally stored in my own personal library. I used the .gitignore to hide files from github that did not need to be seen by the public. 
+We were tasked with creating a portfolio from scratch. I started by creating files inside of my uniquely named folder, Student Portfolio. I created an HTML file using Bootstrap, a CSS file, and a .gitignore file. I then added a folder for images that I had locally stored in my own personal library. I used the .gitignore to hide files from github that did not need to be seen by the public. 
 
 ## Creating the Content in HTML
 
 I wrote code to match the example portfolio that we were given. I created a nav bar that had three links: About Me, My Work, and Contact Me. 
 
 I then added content into each of the sections including a description of myself and a photo of myself, an example of one of the applications I made, and then my contact information.
+
+I also added a link to my Github, my linkedIn, and my gmail pages. Then I attached my resume to the webpage as well. 
+[See-Here] (./Images/links.png)
 
 ### Make it Look Nice
 

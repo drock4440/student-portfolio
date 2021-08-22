@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <title>Dalton Rothrock Web Development Portfolio</title>
+</head>
+<body>
+    <nav class="navbar navbar-light bg-light fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand mx-auto" id="navbarName">Dalton Rothrock</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#aboutMe">About Me</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#headers">My Work</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#contact">Contact Me</a>
+                  </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="./resume/Dalton_Rothrock_-_Web_Developer.pdf">My Resume</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <div class="card mb-3 mx-auto bg-light col-9" style="padding:10px" id="aboutMe">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="./Images/IMG_6880.JPG"  class="img-fluid rounded-start" >
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title text-center" id="headers">About Me</h5>
+              <p class="card-text text-center" id="aboutMeText"> I am a 24 year old Student studying Management of Information Systems, while at the same time learning to code. The DU bootcamp has strengthened my skills and given me a firm basis of knowledge in a full stack of coding languages. I am proficient in HTML5, MySQL, CSS3, JavaScript, jQuery, Node.js, PHP, Laralevel, Express.js, React.js, Database Theory, MongoDB, Command Line, Git, and more.</p>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card col-3 mx-auto mb-3">
+        <div class="card-body text-center" id="headers">
+          Projects I've Worked on
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-4">
+          <div class="card">
+            <img class="card-img-top" src="./Images/waifuSaid.png" alt="Card image cap" id="projects">
+            <div class="card-body">
+              <h5 class="card-title">Waifu Said</h5>
+              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+              <a href="https://drock4440.github.io/waifu-said/" class="btn btn-primary">Check Me Out!</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="card">
+            <img class="card-img-top" src="./Images/agarthan.jpg" alt="Card image cap" id="projects">
+            <div class="card-body">
+              <h5 class="card-title">Agarthan Adventures</h5>
+              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+              <a href="https://agarthan-adventures.herokuapp.com/" class="btn btn-primary">Check Me Out!</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="card">
+            <img class="card-img-top" src="./Images/workDayPlanner.png" alt="Card image cap" id="projects">
+            <div class="card-body">
+              <h5 class="card-title">Agarthan Adventures</h5>
+              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+              <a href="https://drock4440.github.io/Work-Day-Planner/" class="btn btn-primary">Check Me Out!</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card col-3 mx-auto mb-3 mt-3">
+        <div class="card-body text-center" id="headers">
+          Resume & Contact Links
+        </div>
+      </div>
+
+
+      <footer class="bg-light text-center text-white" id="contact">
+        <!-- Grid container -->
+        <div class="container p-4 pb-0">
+          <!-- Section: Social media -->
+          <section class="mb-4">
+            
+            <a
+              class="btn btn-primary btn-floating m-1"
+              style="background-color: #ece913;"
+              href="./resume/Dalton_Rothrock_-_Web_Developer.pdf"
+              role="button"
+              ><i class="fab fa-google"></i
+            >Resume</a>
+            <!-- Google -->
+            <a
+              class="btn btn-primary btn-floating m-1"
+              style="background-color: #dd4b39;"
+              href="mailto:daltonrothrock8@gmail.com"
+              role="button"
+              ><i class="fab fa-google"></i
+            >Gmail</a>
+      
+            <!-- Linkedin -->
+            <a
+              class="btn btn-primary btn-floating m-1"
+              style="background-color: #0082ca;"
+              href="https://www.linkedin.com/in/dalton-rothrock-a67935162/"
+              role="button"
+              ><i class="fab fa-linkedin-in"></i
+            >Linkedin</a>
+            <!-- Github -->
+            <a
+              class="btn btn-primary btn-floating m-1"
+              style="background-color: #333333;"
+              href="https://github.com/settings/repositories"
+              role="button"
+              ><i class="fab fa-github"></i
+            > Github</a>
+          </section>
+          <!-- Section: Social media -->
+        </div>
+        <!-- Grid container -->
+      
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+          
+          <a class="text-white" href="https://mdbootstrap.com/">Thanks for stopping by!</a>
+        </div>
+        <!-- Copyright -->
+      </footer>
+
+</body>
+</html>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>

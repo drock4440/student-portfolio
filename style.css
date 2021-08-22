@@ -1,0 +1,29 @@
+body {
+    font-family: 'Courgette', cursive;
+    background-image: url('./Images/bgpic.jpeg');
+    background-repeat: repeat-y;
+    background-size: cover;
+    height: 100%;
+}
+
+#headers {
+    font-size: 35px;
+    
+}
+
+#aboutMe {
+    margin-top: 100px;
+}
+
+#aboutMeText {
+    font-size: 25px;
+}
+
+#projects {
+    height: 300px;
+    width: 541px;
+}
+
+#navbarName {
+    font-size: 40px
+}
