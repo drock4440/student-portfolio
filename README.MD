@@ -1,6 +1,6 @@
 <!-- [alt-image](Images/portfolio.png)
 Access my application here: [Student-Portfolio/index.html](https://drock4440.github.io/student-portfolio/) -->
-[My-Portfolio] (./Images/portfolio.png)
+![My-Portfolio] (./Images/portfolio.png)
 
 # Creating a Portfolio
 
@@ -13,7 +13,7 @@ I wrote code to match the example portfolio that we were given. I created a nav 
 I then added content into each of the sections including a description of myself and a photo of myself, an example of one of the applications I made, and then my contact information.
 
 I also added a link to my Github, my linkedIn, and my gmail pages. Then I attached my resume to the webpage as well. 
-[See-Here] (./Images/links.png)
+![See-Here] (./Images/links.png)
 
 ### Make it Look Nice
 
